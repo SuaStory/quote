@@ -9,11 +9,18 @@
 
 body{
     background: #bbc6fa;
+    
 }
 
 .quote-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
     background: #fff;
-    width: 700px;
+    /* width: 700px; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -54,6 +61,7 @@ body{
 .quote-box span{
     display: block;
     margin-top: 10px;
+    padding-left: 10px;
     float: right;
     position: relative;
 
